@@ -1,0 +1,151 @@
+@charset "utf-8";
+
+/* Original CSS Document */
+
+body{
+    background-color: darksalmon;
+}
+
+#header1{
+    background-color: burlywood;
+    height: 150px;
+    border-radius: .5em;
+    max-width: 90%;
+    margin: auto;
+    text-align: center;
+    text-shadow: 0.1em 0.2em 0.2em black;
+}
+
+.mainNav{
+    list-style: none;
+    background: cornsilk;
+    padding: 0px;
+    max-width: 90%;
+    margin: auto;
+    margin-top: 15px;
+}
+
+.mainNav li a{
+    text-shadow: 0.1em 0.1em 0.2em grey;
+    text-decoration: none;
+    color: black;
+    padding: 20px;
+    display: block;
+    border-radius: .5em;
+}
+
+.mainNav li{
+    display: inline-block;
+    text-align: center;
+    background-color: cornsilk;
+    color: black;
+}
+
+.mainNav li a:hover{
+    background: grey;
+    color: white;
+    text-shadow: 0.1em 0.1em 0.2em black;
+}
+
+li{
+    background-color: cornsilk;
+    text-decoration: none;
+    padding: 10px;
+}
+
+#content{
+    max-width: 90%;
+    margin: auto;
+    background-color: beige;
+    min-height: 500px;
+}
+
+#mainContent{
+    background-color: beige;
+    padding-top: 1em;
+    margin-right: 30px;
+    margin-left: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    min-height: 350px;
+}
+
+#image{
+    float: right;
+    max-width: 300px;
+    margin-top: 50px;
+    border-radius: 10px;
+}
+
+
+#title{
+    text-align: center;
+}
+
+#mainFoot{
+    background-color: burlywood;
+    text-align: center;
+    clear: both;
+    max-width: 90%;
+    margin-top: 25px;
+    height: 150px;
+    border-radius: .5em;
+    margin: auto;
+}
+
+#studiesSection{
+    padding-top: 10%;
+    padding-left: 35%;
+    color: chocolate;
+    font-weight: bold;
+}
+
+#projectsSection{
+    padding-left: 40%;
+    padding-top: 5%;
+    font-weight: bold;
+}
+
+#formContact{
+    padding-left: 45%;
+    padding-top: 5%;
+}
+
+#buttonContact{
+    color: black;
+    border-color: black;
+    background-color: burlywood;
+    font-weight: bold;
+}
+
+#buttonContact:hover{
+    color: white;
+    background-color: black;
+}
+
+.contact{
+    font-weight: bold;
+}
+
+input{
+    background-color: burlywood;
+}
+
+h3{
+    color: black;
+    font: normal 22px arial;
+    font-weight: bold;
+}
+
+h4{
+    color: white;
+    font: normal 20px arial;
+    font-weight: bold;
+}
+
+p{
+    color: black;
+    font-weight: 500;
+}
+  
+  
